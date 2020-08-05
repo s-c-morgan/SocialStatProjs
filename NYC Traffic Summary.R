@@ -35,6 +35,6 @@ avg_spd_viz<- ggplot(as.data.frame(avg_spd), aes(x=borough, y=avg_time, fill = b
   geom_text(aes(label = round(avg_time, 2)),vjust=1.6, color="white", size=3.5)+
   labs(title = 'New York City Traffic Speed by Borough as of ', subtitle = 'Data Courtesy of NYCDOT', x = 'Borough', y = 'Average Speed on Major Roadways(in MPH)')
 avg_spd_viz
-spd_min_viz<- ggplot(as.data.frame(sum_table), aes(x=min, y=avg_time, color = borough))+
-  geom_point()
-spd_min_viz
+# spd_min_viz<- ggplot(as.data.frame(sum_table), aes(x=min, y=avg_time, color = borough))+
+#   geom_point()
+# spd_min_viz
